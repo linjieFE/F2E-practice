@@ -2,5 +2,5 @@
 
 ## 原生js
    * LazyLoadImg 图片懒加载
-
+   * JSONP请求
 

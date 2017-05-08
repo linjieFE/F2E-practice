@@ -11,8 +11,20 @@
 
 <script src="./jsonp.js"></script>
 <script>
-    jsonp('http://127.0.0.1:8080/getname.jsonp', function(data){
-        alert(data.name);
+    jsonp('http://127.0.0.1:8080/getname.jsonp', 
+        {
+            id: '11'
+        },
+        function(data){
+            console.log(data.name);
+        })
+
+    jsonp('http://127.0.0.1:8080/getname.jsonp?callback=fun', 
+    {
+        id: '11'
+    },
+    function(data){
+        console.log(data.name);
     })
 </script>
 </body>
