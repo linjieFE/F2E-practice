@@ -43,7 +43,6 @@
             window.addEventListener('scroll', function() {
                 timer && clearTimeout(timer);
                 timer = setTimeout(function() {
-                    console.log(11);
                     self._loadImgs();
                 }.bind(self), delayTime)
             })
