@@ -5,7 +5,7 @@
 		- index.html
 		- index.js
 ## JSONP请求
-	jonp
+	jsonp
 		- server.js 后端node模拟环境
 		- index.html
 
